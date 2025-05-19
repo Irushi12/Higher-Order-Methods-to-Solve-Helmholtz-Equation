@@ -1,4 +1,4 @@
-This folder contains the MATLAB files of function files to solve the 1D Helmholtz problem in the form 
+This folder contains the MATLAB files of function files to solve the 1D Helmholtz problem in the form:
 ## u''+k^2(x)u(x) = f(x); x\in [a,b]; with boundary conditions u(a)=u0; u(b)=u_N
 Direct Methods - Solve the Au=b by u=A\b directly
 1. CM-4-DM: - This is uses compact dicretization - Fourth order accurate
