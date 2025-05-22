@@ -1,5 +1,9 @@
 ﻿function u = ccm_6_bc4_cg(u1,uend,f,k,N)
 
+%% This is uses compact combined dicretization - Sixth order accurate - 
+%% When required additional boundary conditions are unknown, 
+   %% this method calculates the additional required boundary using one sided formula
+%% Solve Au=b by using CG algorithm
 %% This is a function file to solve Helmholtz equation in the form u''+ku = f ; 
 %% with boundries at x=0 and x=pi
 % u1 = boundary condition at x=0 % example: u1=1; 
