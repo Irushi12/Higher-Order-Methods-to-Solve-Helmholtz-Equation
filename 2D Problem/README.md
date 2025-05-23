@@ -8,6 +8,6 @@ This folder contains the MATLAB files of function files to solve the 2D Helmholt
 1. CM-4-CG-2D - This uses compact dicretization - Fourth order accurate
 2. CM-6-CG-2D - This uses compact dicretization - Sixth order accurate - This assumes all the required additional boundary conditions are known excalty
 3. CM-6-BC4-CG-2D - This uses compact dicretization - Sixth order accurate - When required additional boundary conditions are unknown, this method calculates the additional required boundary using one sided formula
-4. ADI4-DM-CG - Improved CM-4-CG-2D by using an initial guess. Calculates the initial guess using an ADI method derived from fourth order discretization
-5. ADI6-DM-CG - Improved CM-6-CG-2D by using an initial guess. Calculates the initial guess using an ADI method derived from sixth order discretization
-6. ADI6-BC4-DM-CG - Improved CM-6-BC4-CG-2D by using an initial guess. Calculates the initial guess using an ADI method derived from sixth order discretization
+4. ADI4-DM-CG - Improved CM-4-CG-2D by using an initial guess. Calculates the initial guess using an ADI method derived from fourth order discretization - ADI4-DM is needed
+5. ADI6-DM-CG - Improved CM-6-CG-2D by using an initial guess. Calculates the initial guess using an ADI method derived from sixth order discretization - ADI6-DM_extendedsol is needed
+6. ADI6-BC4-DM-CG - Improved CM-6-BC4-CG-2D by using an initial guess. Calculates the initial guess using an ADI method derived from sixth order discretization - ADI6-BC4-DM-extendedsol is needed
