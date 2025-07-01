@@ -5,10 +5,8 @@
 % u1 = boundary condition at x=0 % example: u1=1; 
 % uend = boundary condition at x=pi % example: uend=-1; 
 % f = function f on RHS 
-        %example for constant wavenumber: f=@(x) 3599*cos(x);
         %example for variable wavenumber: f=@(x) -cos(x) + 3600*(1+x^2)*cos(x); 
 % k = wavenumber 
-        %example for constant wavenumber: k=@(x) 3600
         %example for variable wavenumber: k=@(x) 3600*(1+x^2);
 % N= the number of grid points (number of intervals+1); so that i=1,2,...N
         %example: N=11; 
