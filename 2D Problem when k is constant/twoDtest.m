@@ -1,4 +1,4 @@
-﻿%% Generates the table of testing order of convergence
+﻿%% Generates the table of testing order of convergence with respect to maximum norm
 
 clear all;
 ux1 = @(x) sin(x); % boundary condition
