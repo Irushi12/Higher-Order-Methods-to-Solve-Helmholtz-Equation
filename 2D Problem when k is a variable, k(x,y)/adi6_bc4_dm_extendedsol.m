@@ -8,11 +8,9 @@
 % uy1 = boundary condition at x=0 % example: uy1 = @(y) 0; 
 % uyend = boundary condition at x=pi/2 % example: uyend = @(y) cos(2*y);; 
 % f = function f on RHS 
-        %example for constant wavenumber: f=@(x,y) 25000*sin(x)*cos(2*y);
         %example for variable wavenumber:
             %f=@(x,y) -5*sin(x)*cos(2*y)+(25000)*(1+x^2/2+y^2/2)*sin(x)*cos(2*y); 
 % k = wavenumber 
-        %example for constant wavenumber: k=@(x,y) 25000
         %example for variable wavenumber: k = @(x,y) 25000*(1+x^2/2+y^2/2);
 % N= the number of grid points in one dorection  (number of intervals+1); 
         %so that i,j=1,2,...N example: N=11; 
