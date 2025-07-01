@@ -1,4 +1,4 @@
-﻿%% Generates the table of testing order of convergence
+﻿%% Generates the table of testing order of convergence with respect to maximum norm
 
 clear all;
 u1=1; % boundary condition at x=0
