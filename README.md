@@ -1,5 +1,5 @@
 # Higher-Order-Methods-to-Solve-Helmholtz-Equation
-This Repository contains my master's thesis work on Fourth Order and Sixth Order Methods to Solve 1D and 2D Helmholtz Equations with large wavenumbers.
+This Repository contains the thesis work on Fourth Order and Sixth Order Methods to Solve 1D and 2D Helmholtz Equations with large wavenumbers.
 ## 1D Helmholtz Equation
 To solve 1D Helmholtz equation, six direct methods and six iterative methods are developed.
 ### Detailed Discription : 1D Problem/README.md
